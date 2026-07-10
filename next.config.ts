@@ -1,7 +1,14 @@
-import type { NextConfig } from "next";
+// import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+// const nextConfig: NextConfig = {
+//   async rewrites() {
+//     return [
+//       {
+//         source: "/asset/:path*",
+//         destination: "http://localhost:8080/asset/:path*",
+//       },
+//     ];
+//   },
+// };
 
-export default nextConfig;
+// export default nextConfig;
