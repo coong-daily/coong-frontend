@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { AccountResponseDto } from "@/app/types/account";
-import ConfirmModal from "@/app/components/ConfirmModal";
+import ConfirmModal from "@/app/assets/components/ConfirmModal";
 
 interface ConnectedAccountsProps {
   accounts: AccountResponseDto[];

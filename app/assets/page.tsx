@@ -2,9 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import { AssetResponse, AccountResponseDto } from "@/app/types/account";
-import AccountModal from "@/app/components/AccountModal";
-import TransactionHistory from "@/app/components/TransactionHistory";
-import ConnectedAccounts from "../components/ConnectedAccount";
+import AccountModal from "@/app/assets/components/AccountModal";
+import TransactionHistory from "@/app/assets/components/TransactionHistory";
+import ConnectedAccounts from "./components/ConnectedAccount";
 
 export default function AssetsPage() {
   const [dbAssets, setDbAssets] = useState<AssetResponse[]>([]);
